@@ -30,8 +30,10 @@ bool stack_push(StackArrayList *s, int elem){
 }
 
 bool stack_pop(StackArrayList *s){
-    if(s->)
+    if(s->top!=-1){
+    	s->top--;
+	}
     
-    return
+    return true;
 }
 
