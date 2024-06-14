@@ -17,6 +17,7 @@ void enqueue(Queue* q, int elem);
 void dequeue(Queue* q);
 int front(Queue q);
 int rear(Queue q);
+bool isEmpty(Queue q);
 
 #endif
 

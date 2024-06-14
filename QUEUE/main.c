@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 #include "queue.h"
 
 
@@ -21,8 +22,7 @@ int main(int argc, char *argv[]) {
 	printf("\n\n----DEQUEUE----\n");
 	dequeue(&q);
 	display(q);
-	front(q);
-	rear(q);
 	printf("\n\nFront: %d\nREAR: %d ", front(q), rear(q));
+	printf("\n\nIs the queue empty? %s\n", isEmpty(q) ? "Yes" : "No");
 	return 0;
 }

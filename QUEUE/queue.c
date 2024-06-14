@@ -61,6 +61,10 @@ int rear(Queue q){
 	return -1;
 }
 
+bool isEmpty(Queue q){
+	return (q.front == NULL);
+}
+
 void display(Queue q){
 	NodePtr trav;
 	
