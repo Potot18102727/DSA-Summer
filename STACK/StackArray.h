@@ -16,6 +16,7 @@ bool isFull(StackArrayList s);
 bool stack_push(StackArrayList *s, int elem);
 bool stack_pop(StackArrayList *s);
 int stack_peek(StackArrayList s);
+StackArrayList getEven(StackArrayList *s);
 
 void display(StackArrayList s);
 void visualize(StackArrayList s);

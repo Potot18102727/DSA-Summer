@@ -1,7 +1,5 @@
-.#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
-
-
 
 typedef struct{
 	char name[20];
@@ -13,9 +11,6 @@ typedef struct node {
 	info data;
 	struct node* next;
 }Node, *NodePtr;
-
-
-
 
 void init(NodePtr* node){
 	*node=NULL;
